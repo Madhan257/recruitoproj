@@ -1,0 +1,146 @@
+.ticketbg{
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-office-desk-assortment-with-copy-space_23-2148707962.jpg?w=2000&t=st=1689241223~exp=1689241823~hmac=75c5e61bb55e9d4b197fdc7cf7a9ec59ffe73ae568fdb182791b27647d4b7827");
+
+}
+.ticketbg h1{
+    color:#0f0d0d;
+}
+  .ticket {
+    font-family: "poppins",sans-serif;
+  
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #04030C;
+    width: 700px;
+    height: 260px;
+    border-radius: 15px;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+    display: block;
+    margin: 2% auto auto auto;
+    color: #fff;;
+  }
+  
+  .date {
+    margin: 15px;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  
+  .date .day{
+    font-size: 80px;
+    float: left;
+    color: #080707;
+  }
+  
+  .date .month-and-time {
+    float: left;
+    margin: 15px 0 0 0;
+    font-weight: bold;
+    color: #080707;
+  }
+  
+  .artist {
+    font-size: 30px;
+    margin: 10px 100px 0 40px;
+    float: left;
+    font-weight: bold;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  .name{
+    color: #080707;
+  }
+ 
+  .cta .buy {
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #eec07c;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #0a0909;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }  .cta .buyis {
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #84c386;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #0a0909;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }  .cta .buyid {
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #c38484;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #0a0909;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  .jithu{
+    font-size: 50px;
+  }
+  
+  .small {
+    font-weight: 200;
+    color: #080707;
+  }
+  
+  .ticket-1 {
+      background-image: url(https://storage.googleapis.com/csfirst_public/hoc/hoc2017.png);
+  }
+  
+  .ticket-2{
+      background-image: url(https://tse4.mm.bing.net/th?id=OIP.xeVpAShsrzriqSfxbH42hAHaG1&pid=ImgDet&rs=1);
+  }
+  .ticket-3 {
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.rhFRvGdMzcprSEApLCHjcAHaD4&pid=ImgDet&rs=1);
+}
+
+
+.ticket + .ticket {
+    margin-top: 20px; /* Adjust the value as per your requirement */
+  }
+
+  .ticket-animation {
+    animation: fadeIn 1s ease-out;
+    animation-fill-mode: both; /* This ensures the animation stays in its final state after finishing */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
